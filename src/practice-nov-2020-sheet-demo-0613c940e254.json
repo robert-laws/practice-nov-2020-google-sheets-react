@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "practice-nov-2020-sheet-demo",
+  "private_key_id": "0613c940e254afdae40e08b75a78047e5a641b5a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDX7ABM8ZXQ/mJk\nIHsaLf6mG2eNBaWV1nSpFVcP0oRDBjcURI1XgM+pl0+6JKMLW0/k9HErLlJ+xsb8\nj3GaqGjDbx7C6z+3jZdIILO/HpyRB9ngIMaifHDt3xoA3w1OBWDdkwNNTIZssJOT\nCAfQbD4dz/0XQ14dAuPqgU3/JOGNfVMWcCpz7H/kVBXt3sE79zDB0bfEeR0PY3Xs\n8EPavYYQjwsP9SwPnunEhV/RLH/wWzU9B86IrRiKQ+cS7C3Vf/PQ3GLUKiXaPMD/\n57aGkXVFmd4kp2opers7IYxnUlFstR8Omjc35t8Dpfo6CrrH5KOf2LZs2DLWxTsl\nrbb/LU5RAgMBAAECggEAEqqRu5UihiDpvV1z+vdJNY+2r+GyNw4FQ5VHU6Q3wCoW\nQqOrAuqtOSxuLWnLqRiNo33Q10Jvygsx6mVVtUC0HtoZQxFOjrYYQxllpKL3NtAC\nkT5QIb2njx7biwH9btZm8XzLOyhfkh+hQGOgNk/XPmFL0FIn/ZLRhIVFaoZkE+S+\nJ4pRND6C5Tm8iwd8h13nflxsqu86stBROLnWK+E1u4kpvFEmWzgdNtF0CWkLlHln\nGgJkmo00f45UiJgbehXrLE0Vjq3g3RjdbmKSwJdcGiC20jsErS4hruBWKEz/c8mi\nJWYTs2S8OD8ruDukZ7sF2I4cISb/8uBf4h9yWL7X6QKBgQDz/FYHJrfClxNFyT+c\nY0Tjs+V5svE+vhV67S19fjGrH7pRDn0J88Ah1olZ97guoeyfFSI9NRx1zZjB7Eu1\nwwDL3N3U2/zV5af8J7qQmXWnO2lGORkYW5r1cqCCfP5EUqDyFEs2CMW3PeCk/fmu\nY/H9Yrf68ta5JQfj9en55SaPaQKBgQDijeUgB0/34PexI9LtwBFzEi9oiBbFRC7x\nTKD5wr4hKHgtB7cxKr42HxTaUH1trQbvVPxaRuTF7JPqhXryDRcuCwnLhwajS08C\nDBZ7Vb7vjO9DotaaOfb7LKCCJsdOXTD3j/Bwj21DladsEY9Cm0qJNDvuTaJVkaqZ\niO7iyGFSqQKBgAdmrCVjY0ef1ZHUXP2ddUWC+38Jko/YrEYiU7Lu1Qrf14MF8X0P\ny9A69ceo4AlqGAdrWLKKneZk6jFXvaQx2iBU/tWqJq1GXiYj/mDMhukfwD3FFaHL\nhZPUelH7AKuJ5h/xxaZJ9dVtJxdaLOzBU2HgULxoCWNsYCTmHMbb0KOhAoGBAMod\nMtLvEx2eGvtybUPjvO1+xMKp3j6gxIxLA7WuUfa85vGtV3ZKnqUj93OIqU2GNpCf\nrf5QDtqwY4mvCW8V1J8kA9oKHRbjIZo+9HOVnKCTiAU8Kd4vZjLQrmVOeTJlG0FQ\nrX2NxzmrMlDMHZWbetSKwAiqQ++444zTx+KUR5b5AoGBAKfzqZSu2SPxxhKv6cKT\nOS62a0lviXflCOoqVMEFkHXq+fr0ozwPJc7OlXYgPErHTN5f9W5SccKnsIfGZGdb\neuxWZOsoUhx7ToDQLBz/NChGoYrsmJvmZPoA0X9cB3DeoMjwX3v7JWPOBl6LDCfQ\n3yxHK9+ZsgK8Dp8urkQ7byuN\n-----END PRIVATE KEY-----\n",
+  "client_email": "practice-nov-2020-sheets-acct@practice-nov-2020-sheet-demo.iam.gserviceaccount.com",
+  "client_id": "102005692875469749430",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/practice-nov-2020-sheets-acct%40practice-nov-2020-sheet-demo.iam.gserviceaccount.com"
+}
