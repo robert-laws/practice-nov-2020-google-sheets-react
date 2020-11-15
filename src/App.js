@@ -66,7 +66,7 @@ const App = () => {
   };
 
   const addNewRow = (row) => {
-    const newRow = { Name: 'Wrap', Value: 125 };
+    const newRow = { Name: 'Hamburger', Value: 195 };
 
     appendSpreadsheet(newRow);
   };
