@@ -1,6 +1,7 @@
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './App.scss';
 import { GoogleSpreadsheet } from 'google-spreadsheet';
+import { uuid } from 'uuidv4';
 
 const App = () => {
   const SPREADSHEET_ID = process.env.REACT_APP_SPREADSHEET_ID;
@@ -9,6 +10,8 @@ const App = () => {
   const PRIVATE_KEY = process.env.REACT_APP_GOOGLE_SERVICE_PRIVATE_KEY;
 
   const doc = new GoogleSpreadsheet(SPREADSHEET_ID);
+
+  const [sheetRows, getSheetRows] = useState([]);
 
   // const connectSheet = async () => {
   //   try {
@@ -40,6 +43,7 @@ const App = () => {
         await doc.loadInfo();
         const sheet = doc.sheetsById[SHEET_ID];
         const rows = await sheet.getRows();
+        getSheetRows(rows);
         console.log(rows);
       } catch (error) {
         console.log(error);
@@ -66,7 +70,15 @@ const App = () => {
   };
 
   const addNewRow = (row) => {
-    const newRow = { Name: 'Hamburger', Value: 195 };
+    const newRow = {
+      id: uuid(),
+      location_id: 2,
+      menu_id: 2,
+      date: '12/23/2020',
+      time: 22,
+      quantity: 4,
+      drive_thru: false,
+    };
 
     appendSpreadsheet(newRow);
   };
@@ -74,6 +86,9 @@ const App = () => {
   return (
     <div className='App'>
       <h1>Google Sheets and React</h1>
+      <hr />
+      {sheetRows.length > 0 &&
+        sheetRows.map((item) => <p key={item.id}>{item.time}</p>)}
       <hr />
       <button onClick={addNewRow}>Add Row</button>
     </div>
